@@ -9,7 +9,6 @@ namespace AppRunner.Runners
 			LaunchRhino();
 		}
 
-	{
 		public void LaunchRhino()
 		{
 			//string rhinoPath = @"C:\Program Files\Rhino 8\System\Rhino.exe";
