@@ -5,20 +5,26 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AppRunner
+namespace AppRunner.Runners
 {
-	public static class RhinoRunner
+	public class RhinoComputeRunner : IRunner
 	{
-		public static void LaunchRhino()
+		public void RunProcess()
 		{
-			string rhinoPath = @"C:\Program Files\Rhino 8\System\Rhino.exe";
+			LaunchRhinoCompute();
+		}
+
+		public void LaunchRhinoCompute()
+		{
+			//string rhinoPath = @"C:\Program Files\Rhino 8\System\Rhino.exe";
+			string rhinoPath = @"C:\repos\compute.rhino3d\src\bin\Debug\rhino.compute\rhino.compute.exe";
 
 			ProcessStartInfo startInfo = new ProcessStartInfo
 			{
 				FileName = rhinoPath,
 				Arguments = "", // Add any command-line arguments here if needed
-				UseShellExecute = true // Use the operating system shell to start the process
-			};
+                UseShellExecute = true // Use the operating system shell to start the process
+            };
 
 			try
 			{
