@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "AECTech2024", "AECTech2024\AECTech2024.shproj", "{404DB24C-3BFD-4619-AFAD-3B2097A33C44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Revit2025", "Revit2025\Revit2025.csproj", "{417956C5-6D8E-4B8D-838B-6BE26DA2C9C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Revit2024", "Revit2024\Revit2024.csproj", "{1C996DDB-2D6D-4B18-9707-E2019B2F95B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{417956C5-6D8E-4B8D-838B-6BE26DA2C9C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{417956C5-6D8E-4B8D-838B-6BE26DA2C9C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{417956C5-6D8E-4B8D-838B-6BE26DA2C9C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{417956C5-6D8E-4B8D-838B-6BE26DA2C9C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C996DDB-2D6D-4B18-9707-E2019B2F95B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C996DDB-2D6D-4B18-9707-E2019B2F95B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C996DDB-2D6D-4B18-9707-E2019B2F95B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C996DDB-2D6D-4B18-9707-E2019B2F95B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {49D37C46-D540-48DE-8914-787C2E5AEEA9}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		AECTech2024\AECTech2024.projitems*{404db24c-3bfd-4619-afad-3b2097a33c44}*SharedItemsImports = 13
+	EndGlobalSection
+EndGlobal
